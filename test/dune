@@ -1,0 +1,6 @@
+(test
+ (name ninomae)
+ (libraries opium alcotest caqti caqti-driver-postgresql caqti-lwt tyxml
+   lwt.unix core)
+ (preprocess
+  (pps ppx_rapper)))

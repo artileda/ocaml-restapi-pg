@@ -1,0 +1,7 @@
+(executable
+ (public_name ninomae)
+ (name main)
+ (libraries ninomae opium alcotest caqti caqti-driver-postgresql caqti-lwt
+   tyxml lwt.unix core logs.fmt)
+ (preprocess
+  (pps ppx_rapper)))
